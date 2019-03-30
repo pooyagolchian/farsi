@@ -23,7 +23,7 @@ class BlogIndex extends React.Component {
         <Bio />
         {posts.map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug
-          let jalaliDate = moment(node.frontmatter.date).locale('fa').format('YYYY/M/D')
+          let jalaliDate = moment(new Date(node.frontmatter.date)).locale('fa').format('YYYY/M/D')
           return (
             <div key={node.fields.slug}>
               <h3

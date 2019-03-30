@@ -12,7 +12,7 @@ class BlogPostTemplate extends React.Component {
     const post = this.props.data.markdownRemark
     const siteTitle = this.props.data.site.siteMetadata.title
     const { previous, next } = this.props.pageContext
-    let jalaliDate = moment(post.frontmatter.date).locale('fa').format('YYYY/M/D');
+    let jalaliDate = moment(new Date(post.frontmatter.date)).locale('fa').format('YYYY/M/D');
 
 
     return (
@@ -24,18 +24,15 @@ class BlogPostTemplate extends React.Component {
         <h1> {post.frontmatter.title}</h1>
         <p
           style={{
-            ...scale(-1 / 5),
+            ...scale(-1 / 9),
             display: `block`,
             marginBottom: rhythm(1),
-            marginTop: rhythm(-1),
+            marginTop: rhythm(1),
+            color:`#777`
           }}
         >
-          
-          <span style={{
-            fontFamily:`Sahel`,
-            
-          }}>{jalaliDate}
-          </span>
+        
+      {jalaliDate}
         </p>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
         <hr

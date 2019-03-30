@@ -8,7 +8,7 @@
 import React from "react"
 import { StaticQuery, graphql } from "gatsby"
 import Image from "gatsby-image"
-import { rhythm } from "../utils/typography"
+import { rhythm, scale } from "../utils/typography"
 
 function Bio() {
   return (
@@ -21,6 +21,7 @@ function Bio() {
             style={{
               display: `flex`,
               marginBottom: rhythm(2.5),
+              alignItems:`center`,
             }}
           >
             <Image
@@ -31,13 +32,21 @@ function Bio() {
                 marginBottom: 0,
                 minWidth: 50,
                 borderRadius: `100%`,
+                alignItems:`center`,
+              
               }}
               imgStyle={{
                 borderRadius: `50%`,
               }}
             />
-            <p>
-               مهندس نرم‌افزار و برنامه‌نویس <br></br>
+            <p style={{margin:`0`}}>
+               <span style={{
+                 display:`flex`,
+                 fontWeight:`bolder`,
+                 ...scale(1/9),
+                 alignItems:`center`,
+                flex: `1`
+               }}>مهندس نرم‌افزار و برنامه‌نویس <br></br></span>
               {` `}
               <a target='blank' href={`https://twitter.com/${social.twitter}`}>
                 توییتر 
@@ -56,7 +65,7 @@ function Bio() {
               </a>
               {`  `},    
               <a target='blank' href={`${social.english}`}>
-              انگلیسی
+              بلاگ انگلیسی
               </a>
             </p>
           </div>
