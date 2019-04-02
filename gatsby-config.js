@@ -10,7 +10,8 @@ module.exports = {
       github: `pooyagolchian`,
       linkedin: `pooyagolchian`,
       dribbble:`pooyagolchian`,
-      english:`http://pooyagolchian.ir/`
+      english:`http://pooyagolchian.ir/`,
+      virgool:`https://virgool.io/@pooyagolchian`
     },
   },
   plugins: [
@@ -37,6 +38,13 @@ module.exports = {
             options: {
               maxWidth: 590,
             },
+          },
+          {
+            resolve: "gatsby-remark-external-links",
+            options: {
+              target: "_blank",
+              rel: "nofollow"
+            }
           },
           {
             resolve: `gatsby-remark-responsive-iframe`,

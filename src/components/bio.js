@@ -64,6 +64,10 @@ function Bio() {
               دریبل
               </a>
               {`  `},    
+              <a target='blank' href={`${social.virgool}`}>
+              ویرگول
+              </a>
+              {`  `},    
               <a target='blank' href={`${social.english}`}>
               بلاگ انگلیسی
               </a>
@@ -95,6 +99,7 @@ const bioQuery = graphql`
           linkedin
           dribbble
           english
+          virgool
         }
       }
     }
