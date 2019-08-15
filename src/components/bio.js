@@ -48,27 +48,27 @@ function Bio() {
                 flex: `1`
                }}>مهندس نرم‌افزار و برنامه‌نویس <br></br></span>
               {` `}
-              <a target='blank' href={`https://twitter.com/${social.twitter}`}>
+              <a target="_blank" rel="noopener noreferrer" href={`https://twitter.com/${social.twitter}`}>
                 توییتر 
               </a>
-              {`  `},  
-              <a target='blank' href={`https://github.com/${social.github}`}>
+              {` | `}  
+              <a target="_blank" rel="noopener noreferrer" href={`https://github.com/${social.github}`}>
                  گیت‌هاب
               </a>
-              {`  `},    
-              <a target='blank' href={`https://linkedin.com/in/${social.linkedin}`}>
+              {` | `}   
+              <a target="_blank" rel="noopener noreferrer" href={`https://linkedin.com/in/${social.linkedin}`}>
                  لینکدین
               </a>
-              {`  `},    
-              <a target='blank' href={`https://dribbble.com/${social.dribbble}`}>
+              {` | `}   
+              <a target="_blank" rel="noopener noreferrer" href={`https://dribbble.com/${social.dribbble}`}>
               دریبل
               </a>
-              {`  `},    
-              <a target='blank' href={`${social.virgool}`}>
+              {` | `}   
+              <a target="_blank" rel="noopener noreferrer" href={`${social.virgool}`}>
               ویرگول
               </a>
-              {`  `},    
-              <a target='blank' href={`${social.english}`}>
+              {` | `}    
+              <a target="_blank" rel="noopener noreferrer" href={`${social.english}`}>
               بلاگ انگلیسی
               </a>
             </p>

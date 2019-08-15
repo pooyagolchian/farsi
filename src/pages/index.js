@@ -17,8 +17,8 @@ class BlogIndex extends React.Component {
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO
-          title="مهندس نرم‌افزار و برنامه‌نویس"
-          keywords={[`blog`, `gatsby`, `javascript`, `react`]}
+          title="پویا گلچیان - مهندس نرم‌افزار و برنامه‌نویس"
+          keywords={[`وب‌سایت پویا گلچیان`, `پویا گلچیان`, `طراح و برنامه‌نویس وب`, `طراحی وب‌سایت`,`طراحی اپلیکیشن`,`جاوااسکریپت`,`طراحی پرتال و وب‌سایت‌های شخصی و شرکتی`,`گلچیان`,`پویا`]}
         />
         <Bio />
         {posts.map(({ node }) => {
@@ -29,17 +29,20 @@ class BlogIndex extends React.Component {
               <h3
                 style={{
                   marginBottom: rhythm(1 / 4),
+                  fontSize:`1.5em`,
+                  lineHeight:`1.7em`
                 }}
               >
                 <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
                   {title}
                 </Link>
               </h3>
-              <small style={{color:`#999`}} >{jalaliDate}</small>
+              <small style={{color:`#999`,fontSize:`.9em`}} >{jalaliDate}</small>
               <p
                 dangerouslySetInnerHTML={{
                   __html: node.frontmatter.description || node.excerpt,
                 }}
+                style={{color:`000`,fontSize:`1.05em`}}
               />
             </div>
           )

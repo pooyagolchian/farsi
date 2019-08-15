@@ -4,14 +4,15 @@ module.exports = {
     title: `پویا گلچیان`,
     author: `پویا گلچیان`,
     description: `پویا گلچیان برنامه‌نویس، طراح رابط‌کاربری و مشاور تیم‌های فنی و گرافیک وب و چاپ`,
-    siteUrl: `http://pooyagolchian.ir/farsi/`,
+    siteUrl: `https://www.pooyagolchian.ir/farsi/`,
     social: {
       twitter: `pooyagolchian`,
       github: `pooyagolchian`,
       linkedin: `pooyagolchian`,
       dribbble:`pooyagolchian`,
       english:`http://pooyagolchian.ir/`,
-      virgool:`https://virgool.io/@pooyagolchian`
+      virgool:`https://virgool.io/@pooyagolchian`,
+      telegram:`https://t.me/icoder`
     },
   },
   plugins: [

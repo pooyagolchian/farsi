@@ -61,12 +61,6 @@ date: 2014-02-01
 * **ساخت و راه اندازی وبلاگ عکس پرینت با دروپال و ادمین سرور لینوکس** [blog.axprint.com](http://blog.axprint.com)
 * **طراحی مجدد وب سایت که هنوز در جریان هست** [axprint.com](http://axprint.com)
 * **ساخت لندینگ پیج ها و کمپین های عکس پرینت**
-    - [Axprint coldseason campaign](http://axprint.com/landing/coldseason)
-    - [Axprint pishgaman campaign](http://axprint.com/landing/pishgaman)
-    - [Axprint Alibaba campaign](http://axprint.com/landing/alibaba)  
-    - [Axprint Valentine's Day campaign](http://axprint.com/landing/loveday94)  
-    - [Axprint fetr95 campaign](http://www.axprint.com/landing/fetr95/)
-    - [Axprint & SabaCell campaign](http://www.axprint.com/landing/sabacell/)
 
 ### شرکت مهندسی نرم افزار رایورز
 برنامه نویس دروپال و طراح و گرافیست وب [شرکت مهندسی نرم فزار رایورز](http://rayvarz.com)

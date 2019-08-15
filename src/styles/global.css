@@ -33,6 +33,9 @@
 
  }
 
+ 
+
+
 body {
   font-family: 'Sahel';
   font-weight: normal;
@@ -44,8 +47,8 @@ body {
 h1,h2,h3,h4,h5 {
   letter-spacing: normal !important;
   word-spacing: normal !important;
+  line-height: 1.4;
 }
-
 
 ul {
   margin-right: 1.75rem !important;

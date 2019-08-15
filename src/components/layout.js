@@ -70,7 +70,7 @@ class Layout extends React.Component {
       >
         <header>{header}</header>
         <main>{children}</main>
-        <footer style={{color: `#666`,fontSize:`.9em`}}>
+        <footer style={{color: `#adadad`,fontSize:`.9em`}}>
           © 2015 - {new Date().getFullYear()}. تمامی حقوق محفوظ است.
         </footer>
       </div>
