@@ -46,7 +46,7 @@ function Bio() {
                  ...scale(1/9),
                  alignItems:`center`,
                 flex: `1`
-               }}>مهندس نرم‌افزار و برنامه‌نویس <br></br></span>
+               }}>مهندس نرم‌افزار، مشاور فنی تیم‌‌های نرم‌افزاری و برنامه‌نویس سمت کاربر <br></br></span>
               {` `}
               <a target="_blank" rel="noopener noreferrer" href={`https://twitter.com/${social.twitter}`}>
                 توییتر 
