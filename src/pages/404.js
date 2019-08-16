@@ -15,7 +15,7 @@ class NotFoundPage extends React.Component {
         <div style={{marginBottom:`2em`}}>
         <h1>صفحه مورد نظر یافت نشد.</h1>
         <p>صفحه‌ای که به دنبال آن می‌گردید یافت نشد، لطفا بر‌روی لینک زیر کلیک کنید.</p>
-        <a href='/'>بازگشت به صفحه اصلی</a>
+        <a href='/farsi'>بازگشت به صفحه اصلی</a>
         
         </div>
        
