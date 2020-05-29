@@ -10,15 +10,16 @@ class NotFoundPage extends React.Component {
     const siteTitle = data.site.siteMetadata.title
 
     return (
-      <Layout  location={this.props.location} title={siteTitle}>
+      <Layout location={this.props.location} title={siteTitle}>
         <SEO title="۴۰۴:‌ پیدا نشد" />
-        <div style={{marginBottom:`2em`}}>
-        <h1>صفحه مورد نظر یافت نشد.</h1>
-        <p>صفحه‌ای که به دنبال آن می‌گردید یافت نشد، لطفا بر‌روی لینک زیر کلیک کنید.</p>
-        <a href='/farsi'>بازگشت به صفحه اصلی</a>
-        
+        <div style={{ marginBottom: `2em` }}>
+          <h1>صفحه مورد نظر یافت نشد.</h1>
+          <p>
+            صفحه‌ای که به دنبال آن می‌گردید یافت نشد، لطفا بر‌روی لینک زیر کلیک
+            کنید.
+          </p>
+          <a href="/farsi">بازگشت به صفحه اصلی</a>
         </div>
-       
       </Layout>
     )
   }

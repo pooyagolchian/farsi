@@ -43,10 +43,7 @@ class BlogIndex extends React.Component {
                   lineHeight: `1.3em`,
                 }}
               >
-                <Link
-                  style={{ boxShadow: `none` }}
-                  to={`/farsi` + node.fields.slug}
-                >
+                <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
                   {title}
                 </Link>
               </h3>
