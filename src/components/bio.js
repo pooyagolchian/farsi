@@ -43,9 +43,7 @@ function Bio() {
                 <div>
                   <span>وبلاگ</span> <strong>{author}</strong>.{" "}
                 </div>
-                <div>
-                  مهندس نرم‌افزار و توسعه‌دهنده وب، مشاور تیم‌های فنی نرم‌افزاری
-                </div>
+                <div>مهندس نرم‌افزار</div>
               </div>
             </div>
           </div>
