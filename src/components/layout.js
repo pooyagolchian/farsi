@@ -1,7 +1,9 @@
 import React from "react"
 import { Link } from "gatsby"
 import { rhythm, scale } from "../utils/typography"
-import '../styles/global.css'
+import Footer from "./footer"
+import { DarkModeToggle } from "gatsby-theme-overreacted-toggle"
+import "./../index.scss"
 
 class Layout extends React.Component {
   render() {
@@ -13,10 +15,9 @@ class Layout extends React.Component {
       header = (
         <h1
           style={{
-            ...scale(1.5),
-            marginBottom: rhythm(1.5),
+            ...scale(0.7),
             marginTop: 0,
-            fontFamily:`Sahel`
+            marginBottom: rhythm(1),
           }}
         >
           <Link
@@ -35,16 +36,10 @@ class Layout extends React.Component {
       header = (
         <h3
           style={{
-            fontFamily: `Sahel`,
+            fontFamily: `Montserrat, sans-serif`,
             marginTop: 0,
-            color:`black`
           }}
         >
-        <span style={{
-          verticalAlign:`sub`
-      
-        }}
-        >→</span>
           <Link
             style={{
               boxShadow: `none`,
@@ -65,13 +60,42 @@ class Layout extends React.Component {
           marginRight: `auto`,
           maxWidth: rhythm(25),
           padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
-          direction: `rtl`
         }}
       >
-        <header>{header}</header>
+        <header
+          style={{
+            display: `flex`,
+            justifyContent: `space-between`,
+          }}
+        >
+          <div>{header}</div>
+          <div>
+            <DarkModeToggle />
+          </div>
+        </header>
         <main>{children}</main>
-        <footer style={{color: `#adadad`,fontSize:`.9em`}}>
-          © 2015 - {new Date().getFullYear()}. تمامی حقوق محفوظ است.
+
+        <footer
+          style={{
+            color: `#666`,
+            fontSize: `.8em`,
+            paddingTop: `5em`,
+            display: `flex`,
+            justifyContent: `space-between`,
+          }}
+        >
+          <Footer />
+          <div>
+            <a
+              style={{
+                color: `#666`,
+              }}
+              target="blank"
+              href={`https://pooyagolchian.github.io/rss.xml`}
+            >
+              فید
+            </a>
+          </div>
         </footer>
       </div>
     )

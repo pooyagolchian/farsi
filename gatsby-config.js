@@ -3,19 +3,21 @@ module.exports = {
   siteMetadata: {
     title: `پویا گلچیان`,
     author: `پویا گلچیان`,
-    description: `پویا گلچیان برنامه‌نویس، طراح رابط‌کاربری و مشاور تیم‌های فنی و گرافیک وب و چاپ`,
+    description: `پویا گلچیان - برنامه‌نویس و مهندس نرم‌افزار، مشاور تیم‌های فنی نرم‌افزاری`,
     siteUrl: `https://www.pooyagolchian.ir/farsi/`,
     social: {
       twitter: `pooyagolchian`,
       github: `pooyagolchian`,
       linkedin: `pooyagolchian`,
-      dribbble:`pooyagolchian`,
-      english:`http://pooyagolchian.ir/`,
-      virgool:`https://virgool.io/@pooyagolchian`,
-      telegram:`https://t.me/icoder`
+      dribbble: `pooyagolchian`,
+      english: `http://pooyagolchian.ir/`,
+      virgool: `https://virgool.io/@pooyagolchian`,
+      telegram: `https://t.me/icoder`,
     },
   },
   plugins: [
+    `gatsby-theme-overreacted-toggle`,
+    `gatsby-plugin-sass`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -44,8 +46,8 @@ module.exports = {
             resolve: "gatsby-remark-external-links",
             options: {
               target: "_blank",
-              rel: "nofollow"
-            }
+              rel: "nofollow",
+            },
           },
           {
             resolve: `gatsby-remark-responsive-iframe`,

@@ -17,6 +17,7 @@
     "gatsby-plugin-manifest": "^2.0.24",
     "gatsby-plugin-offline": "^2.2.4",
     "gatsby-plugin-react-helmet": "^3.1.3",
+    "gatsby-plugin-sass": "^2.2.4",
     "gatsby-plugin-sharp": "^2.0.30",
     "gatsby-plugin-typography": "^2.3.2",
     "gatsby-remark-copy-linked-files": "^2.1.4",
@@ -26,10 +27,12 @@
     "gatsby-remark-responsive-iframe": "^2.2.4",
     "gatsby-remark-smartypants": "^2.1.2",
     "gatsby-source-filesystem": "^2.1.8",
+    "gatsby-theme-overreacted-toggle": "^1.0.2",
     "gatsby-transformer-remark": "^2.6.10",
     "gatsby-transformer-sharp": "^2.1.17",
     "gh-pages": "2.0.1",
     "jalali-moment": "^3.3.1",
+    "node-sass": "^4.14.0",
     "prismjs": "^1.17.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
@@ -54,12 +57,12 @@
     "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
   },
   "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
+    "build": "gatsby clean; gatsby build",
+    "develop": "gatsby clean; gatsby develop",
+    "deploy": "gatsby clean; gatsby build --prefix-paths && gh-pages -d public",
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
-    "serve": "gatsby serve",
+    "serve": "gatsby clean; gatsby serve",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
   }
 }

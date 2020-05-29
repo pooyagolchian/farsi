@@ -1,7 +1,6 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
-import moment from 'jalali-moment'
-import '../styles/global.css'
+import moment from "jalali-moment"
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -12,8 +11,9 @@ class BlogPostTemplate extends React.Component {
     const post = this.props.data.markdownRemark
     const siteTitle = this.props.data.site.siteMetadata.title
     const { previous, next } = this.props.pageContext
-    let jalaliDate = moment(new Date(post.frontmatter.date)).locale('fa').format('YYYY/M/D');
-
+    let jalaliDate = moment(new Date(post.frontmatter.date))
+      .locale("fa")
+      .format("D MMMM YYYY")
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
@@ -28,11 +28,10 @@ class BlogPostTemplate extends React.Component {
             display: `block`,
             marginBottom: rhythm(1),
             marginTop: rhythm(1),
-            color:`#777`
+            color: `#777`,
           }}
         >
-        
-      {jalaliDate}
+          {jalaliDate}
         </p>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
         <hr
@@ -54,7 +53,7 @@ class BlogPostTemplate extends React.Component {
           <li>
             {previous && (
               <Link to={previous.fields.slug} rel="prev">
-                 →{previous.frontmatter.title}
+                →{previous.frontmatter.title}
               </Link>
             )}
           </li>

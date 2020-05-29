@@ -1,0 +1,74 @@
+@font-face {
+  font-family: Sahel;
+  src: url("fonts/Sahel-FD.eot");
+  src: url("fonts/Sahel-FD.eot?#iefix") format("embedded-opentype"),
+    url("fonts/Sahel-FD.woff") format("woff"),
+    url("fonts/Sahel-FD.ttf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Sahel;
+  src: url("fonts/Sahel-Bold-FD.eot");
+  src: url("fonts/Sahel-Bold-FD.eot?#iefix") format("embedded-opentype"),
+    url("fonts/Sahel-Bold-FD.woff") format("woff"),
+    url("fonts/Sahel-Bold-FD.ttf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: Sahel;
+  src: url("fonts/Sahel-Black-FD.eot");
+  src: url("fonts/Sahel-Black-FD.eot?#iefix") format("embedded-opentype"),
+    url("fonts/Sahel-Black-FD.woff") format("woff"),
+    url("fonts/Sahel-Black-FD.ttf") format("truetype");
+  font-weight: 900;
+}
+
+* {
+  font-family: "Sahel" !important;
+}
+
+body {
+  font-family: "Sahel";
+  font-weight: normal;
+  letter-spacing: normal;
+  word-spacing: normal;
+  direction: rtl;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  letter-spacing: normal !important;
+  word-spacing: normal !important;
+  line-height: 1.4;
+}
+
+blockquote {
+  border-right: 0.32813rem solid hsla(0, 0%, 0%, 0.9);
+  border-left: 0;
+  padding-right: 1.42188rem;
+  padding-left: 0;
+}
+
+.footer-social {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  li {
+    padding: 0 0.3em;
+    text-decoration: none;
+    list-style: none;
+    a {
+      text-decoration: none;
+      color: #666666;
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+}
