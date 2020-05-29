@@ -26,7 +26,7 @@ class Layout extends React.Component {
               textDecoration: `none`,
               color: `inherit`,
             }}
-            to={`/`}
+            to={`/farsi`}
           >
             {title}
           </Link>
@@ -91,7 +91,7 @@ class Layout extends React.Component {
                 color: `#666`,
               }}
               target="blank"
-              href={`https://pooyagolchian.github.io/rss.xml`}
+              href={`https://pooyagolchian.github.io/farsi/rss.xml`}
             >
               فید
             </a>
