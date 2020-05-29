@@ -1,5 +1,6 @@
 module.exports = {
-  pathPrefix: "/farsi",
+  pathPrefix: `/farsi`,
+  assetPrefix: `/farsi`,
   siteMetadata: {
     title: `پویا گلچیان`,
     author: `پویا گلچیان`,
