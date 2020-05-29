@@ -38,9 +38,9 @@ class BlogIndex extends React.Component {
             <div key={node.fields.slug}>
               <h3
                 style={{
-                  marginBottom: rhythm(1 / 4),
-                  fontSize: `1.5em`,
-                  lineHeight: `1.7em`,
+                  marginBottom: rhythm(1 / 9),
+                  fontSize: `1.3em`,
+                  lineHeight: `1.3em`,
                 }}
               >
                 <Link
@@ -57,7 +57,7 @@ class BlogIndex extends React.Component {
                 dangerouslySetInnerHTML={{
                   __html: node.frontmatter.description || node.excerpt,
                 }}
-                style={{ color: `000`, fontSize: `1.05em` }}
+                style={{ color: `000`, fontSize: `.9em` }}
               />
             </div>
           )

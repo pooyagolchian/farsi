@@ -1,6 +1,5 @@
 module.exports = {
   pathPrefix: `/farsi`,
-  assetPrefix: `/farsi`,
   siteMetadata: {
     title: `پویا گلچیان`,
     author: `پویا گلچیان`,
@@ -33,15 +32,15 @@ module.exports = {
         name: `assets`,
       },
     },
-
     {
-      resolve: "gatsby-source-filesystem",
+      resolve: "gatsby-plugin-web-font-loader",
       options: {
-        name: "fonts",
-        path: `${__dirname}/src/fonts/`,
+        custom: {
+          families: ["Sahel"],
+          urls: ["/fonts/fonts.css"],
+        },
       },
     },
-
     {
       resolve: `gatsby-transformer-remark`,
       options: {
