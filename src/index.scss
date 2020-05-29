@@ -1,30 +1,27 @@
 @font-face {
   font-family: Sahel;
-  src: url("https://pooyagolchian.ir/farsi/Sahel-FD.eot");
-  src: url("https://pooyagolchian.ir/farsi/Sahel-FD.eot?#iefix")
-      format("embedded-opentype"),
-    url("https://pooyagolchian.ir/farsi/Sahel-FD.woff") format("woff"),
-    url("https://pooyagolchian.ir/farsi/Sahel-FD.ttf") format("truetype");
+  src: url("./fonts/Sahel-FD.eot");
+  src: url("./fonts/Sahel-FD.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/Sahel-FD.woff") format("woff"),
+    url("./fonts/Sahel-FD.ttf") format("truetype");
   font-weight: normal;
 }
 
 @font-face {
   font-family: Sahel;
-  src: url("https://pooyagolchian.ir/farsi/Sahel-Bold-FD.eot");
-  src: url("https://pooyagolchian.ir/farsi/Sahel-Bold-FD.eot?#iefix")
-      format("embedded-opentype"),
-    url("https://pooyagolchian.ir/farsi/Sahel-Bold-FD.woff") format("woff"),
-    url("https://pooyagolchian.ir/farsi/Sahel-Bold-FD.ttf") format("truetype");
+  src: url("./fonts/Sahel-Bold-FD.eot");
+  src: url("./fonts/Sahel-Bold-FD.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/Sahel-Bold-FD.woff") format("woff"),
+    url("./fonts/Sahel-Bold-FD.ttf") format("truetype");
   font-weight: bold;
 }
 
 @font-face {
   font-family: Sahel;
-  src: url("https://pooyagolchian.ir/farsi/Sahel-Black-FD.eot");
-  src: url("https://pooyagolchian.ir/farsi/Sahel-Black-FD.eot?#iefix")
-      format("embedded-opentype"),
-    url("https://pooyagolchian.ir/farsi/Sahel-Black-FD.woff") format("woff"),
-    url("https://pooyagolchian.ir/farsi/Sahel-Black-FD.ttf") format("truetype");
+  src: url("./fonts/Sahel-Black-FD.eot");
+  src: url("./fonts/Sahel-Black-FD.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/Sahel-Black-FD.woff") format("woff"),
+    url("./fonts/Sahel-Black-FD.ttf") format("truetype");
   font-weight: 900;
 }
 
@@ -33,11 +30,11 @@
 }
 
 body {
-  font-family: "Sahel";
   font-weight: normal;
   letter-spacing: normal;
   word-spacing: normal;
   direction: rtl;
+  font-family: "Sahel" !important;
 }
 
 h1,
