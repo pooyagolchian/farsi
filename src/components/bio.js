@@ -43,7 +43,7 @@ function Bio() {
                 <div>
                   <span>وبلاگ</span> <strong>{author}</strong>.{" "}
                 </div>
-                <div>مهندس نرم‌افزار</div>
+                <div>مهندس نرم‌افزار و توسعه‌دهنده وب</div>
               </div>
             </div>
           </div>
