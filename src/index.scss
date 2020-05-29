@@ -37,6 +37,10 @@ body {
   font-family: "Sahel" !important;
 }
 
+a {
+  color: #f79d50 !important;
+}
+
 blockquote {
   border-right: 0.32813rem solid hsla(0, 0%, 0%, 0.9);
   border-left: 0;
@@ -48,7 +52,7 @@ blockquote {
   display: flex;
   list-style: none;
   padding: 0;
-  margin: 0;
+  margin: 0 !important;
   li {
     padding: 0 0.3em;
     text-decoration: none;
