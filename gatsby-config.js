@@ -32,6 +32,15 @@ module.exports = {
         name: `assets`,
       },
     },
+
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "fonts",
+        path: `${__dirname}/src/fonts/`,
+      },
+    },
+
     {
       resolve: `gatsby-transformer-remark`,
       options: {
