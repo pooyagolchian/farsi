@@ -17,7 +17,7 @@ class Layout extends React.Component {
           style={{
             ...scale(0.7),
             marginTop: 0,
-            marginBottom: rhythm(1),
+            marginBottom: 0,
           }}
         >
           <Link
@@ -66,10 +66,18 @@ class Layout extends React.Component {
           style={{
             display: `flex`,
             justifyContent: `space-between`,
+            alignItems: `center`,
+            marginBottom: rhythm(1.2),
           }}
         >
           <div>{header}</div>
-          <div>
+          <div
+            style={{
+              display: `flex`,
+              alignItems: `center`,
+              justifyContent: `center`,
+            }}
+          >
             <DarkModeToggle />
           </div>
         </header>

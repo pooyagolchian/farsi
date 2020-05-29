@@ -50,12 +50,14 @@ class BlogPostTemplate extends React.Component {
         <Bio />
 
         <ul
+          className="footer-link"
           style={{
             display: `flex`,
             flexWrap: `wrap`,
             justifyContent: `space-between`,
             listStyle: `none`,
-            padding: 0,
+            padding: `2em 0`,
+            margin: 0,
           }}
         >
           <li>
