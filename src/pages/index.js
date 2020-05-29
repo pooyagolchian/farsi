@@ -39,8 +39,8 @@ class BlogIndex extends React.Component {
               <h3
                 style={{
                   marginBottom: rhythm(1 / 9),
-                  fontSize: `1.3em`,
-                  lineHeight: `1.3em`,
+                  fontSize: rhythm(0.8),
+                  lineHeight: rhythm(1.3),
                 }}
               >
                 <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
