@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-starter-blog",
+  "name": "pooya-golchian-farsi-blog",
   "private": true,
-  "description": "A starter for a blog powered by Gatsby and Markdown",
+  "description": "My personal farsi blog",
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "bugs": {
@@ -62,7 +62,7 @@
     "deploy": "gatsby clean; gatsby build --prefix-paths && gh-pages -d public",
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
-    "serve": "gatsby clean; gatsby serve",
+    "serve": "gatsby serve",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
   }
 }
