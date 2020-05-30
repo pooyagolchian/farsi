@@ -82,13 +82,14 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Pooya Golchian farsi Blog`,
-        short_name: `PooyaGolchianFarsiBlog`,
+        name: `Pooya Golchian farsi blog`,
+        short_name: `Pooya Golchian`,
         start_url: `/`,
         background_color: `#ffffff`,
-        theme_color: `#663399`,
+        theme_color: `#26c9e6`,
         display: `minimal-ui`,
         icon: `content/assets/gatsby-icon.png`,
+        theme_color_in_head: true,
       },
     },
     `gatsby-plugin-offline`,
