@@ -37,7 +37,7 @@ module.exports = {
       options: {
         custom: {
           families: ["Sahel"],
-          urls: ["/fonts/fonts.css"],
+          urls: ["/farsi/fonts/fonts.css"],
         },
       },
     },
