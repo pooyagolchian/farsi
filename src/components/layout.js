@@ -102,7 +102,7 @@ class Layout extends React.Component {
                 color: `#666`,
               }}
               target="blank"
-              href={`https://pooyagolchian.github.io/farsi/rss.xml`}
+              href={`https://pooyagolchian.com/farsi/rss.xml`}
             >
               فید
             </a>

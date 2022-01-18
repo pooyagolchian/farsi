@@ -2,8 +2,8 @@
   "name": "pooya-golchian-farsi-blog",
   "private": true,
   "description": "My personal farsi blog",
-  "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "version": "0.2.0",
+  "author": "Pooya Golchian <pooya.golchian@gmail.com>",
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
   },
