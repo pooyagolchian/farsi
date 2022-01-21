@@ -2,11 +2,8 @@
   "name": "pooya-golchian-farsi-blog",
   "private": true,
   "description": "My personal farsi blog",
-  "version": "0.2.0",
+  "version": "0.1.0",
   "author": "Pooya Golchian <pooya.golchian@gmail.com>",
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
-  },
   "dependencies": {
     "gatsby": "^2.13.51",
     "gatsby-cli": "^2.7.27",
@@ -34,13 +31,13 @@
     "gatsby-transformer-sharp": "^2.1.17",
     "gh-pages": "2.0.1",
     "jalali-moment": "^3.3.1",
-    "node-sass": "^4.14.0",
     "prism-themes": "^1.4.0",
     "prismjs": "^1.17.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-helmet": "^5.2.1",
     "react-typography": "^0.16.19",
+    "sass-loader": "^12.4.0",
     "theme-ui": "^0.3.1",
     "typeface-merriweather": "0.0.72",
     "typeface-montserrat": "0.0.54",
@@ -48,17 +45,18 @@
     "typography-theme-wordpress-2016": "^0.16.19"
   },
   "devDependencies": {
-    "prettier": "^1.18.2"
+    "prettier": "^1.18.2",
+    "sass": "^1.49.0"
   },
-  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
+  "homepage": "https://github.com/pooyagolchian/farsi#readme",
   "keywords": [
-    "gatsby"
+    "gatsby farsi theme, gatsby theme"
   ],
   "license": "MIT",
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
+    "url": "git+https://github.com/pooyagolchian/farsi.git"
   },
   "scripts": {
     "build": "gatsby clean; gatsby build",

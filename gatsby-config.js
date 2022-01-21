@@ -10,7 +10,7 @@ module.exports = {
       github: `pooyagolchian`,
       linkedin: `pooyagolchian`,
       dribbble: `pooyagolchian`,
-      english: `http://pooyagolchian.com/`,
+      english: `https://pooyagolchian.com/`,
       virgool: `https://virgool.io/@pooyagolchian`,
       telegram: `https://t.me/icoder`,
     },

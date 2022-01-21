@@ -29,12 +29,18 @@
   font-family: "Sahel" !important;
 }
 
+html,
+body {
+  overflow-x: hidden !important;
+}
+
 body {
   font-weight: normal;
   letter-spacing: normal;
   word-spacing: normal;
   direction: rtl;
   font-family: "Sahel" !important;
+  overflow: hidden !important;
 }
 
 a {
